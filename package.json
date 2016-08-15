@@ -1,0 +1,25 @@
+{
+  "name": "bbc-bowling-kata-test",
+  "version": "1.0.0",
+  "description": "Bowling Kata Development Test",
+  "main": "bowlingKata.js",
+  "scripts": {
+    "test": "mocha bowlingKataTests.js"
+  },
+  "author": "Adam Macmillan",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "chai": "^3.5.0",
+    "expect": "^1.20.2",
+    "express": "^4.14.0",
+    "get-stdin": "^5.0.1",
+    "keypress": "^0.2.1",
+    "mocha": "^3.0.2",
+    "path": "^0.12.7",
+    "promise": "^7.1.1",
+    "request": "^2.74.0",
+    "robotjs": "^0.4.4",
+    "should": "^11.0.0"
+  }
+}
