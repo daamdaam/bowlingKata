@@ -12,19 +12,21 @@ var game = function() {
 }
 
 /**
- * Automatically generate a score card
+ * Automatically generate a score card - unused / incomplete
  * todo : fix for last round
+ * todo:    call game locally 
+ *          call this method in game
+ *          Call score to render the final score at the end
  */
 game.prototype.generateScoreCard = function() {
         this.this._score = 0; 
         var max = 10, min = 1;
         for (var i = 0; i < 10; i++ ) {
-            var firstBowl = 10//Math.floor(Math.random() * (max - min + 1) + min);
+            var firstBowl = Math.floor(Math.random() * (max - min + 1) + min);
             if (firstBowl == 10) {
                 this.this._score += 20;
-                console.log(this.this._score)
             }
-            var secondBowl = 0//Math.floor(Math.random() * ((max-firstBowl) - min + 1) + min);
+            var secondBowl = Math.floor(Math.random() * ((max-firstBowl) - min + 1) + min);
             this.bowl(firstBowl);
             this.bowl(secondBowl); 
         }

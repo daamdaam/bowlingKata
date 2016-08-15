@@ -84,6 +84,10 @@ describe('Bowling Kata Start Tests', function() {
         done();
     });
 
+    /**
+     * Test to make sure last frame is treated differently and correctly
+     * - Unused
+     */
     it.skip('should should treat last frame differently', function(done){
 
         done();
