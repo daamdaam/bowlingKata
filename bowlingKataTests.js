@@ -1,9 +1,7 @@
 var mocha = require('mocha'),
     chai = require('chai'),
     should = require('should'),
-    expect = require('expect')
-    Promise = require('bluebird')
-    fs = require('fs');
+    expect = require('expect');
 
 var bowlingKata = require('./bowlingKata');
 
